@@ -31,9 +31,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/LineIcons.2.0.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/tiny-slider.css",
+              "src/assets/css/glightbox.min.css",
+              "src/assets/css/main.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/wow.min.js",
+              "src/assets/js/tiny-slider.js",
+              "src/assets/js/glightbox.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -127,5 +140,8 @@
       }
     }
   },
-  "defaultProject": "factafrica"
+  "defaultProject": "factafrica",
+  "cli": {
+    "analytics": "aa048ed7-d38d-40f3-9336-bf1bcb92bb81"
+  }
 }
